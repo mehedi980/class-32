@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.div{
+    height: 420px;
+    width: 400px;
+    margin: auto;
+    border: 2px dotted black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.flex-item{
+    color: black;
+    background-color: red;
+    border: 1px solid green;
+    text-align: center;
+}
+
+.div-2{
+    height: 220px;
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.flex-item2{
+    color: black;
+    background-color: red;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.div-3{
+    height: 220px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+
+    margin-top: 10px;
+ 
+}
+
+.flex-item3{
+    color: black;
+    background-color: red;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.div-4{
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    border: 2px dotted black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    margin-top: 10px;
+}
+
+.flex-item4{
+    color: black;
+    background-color: red;
+    border: 1px solid green;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.div-5{
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    border: 2px dotted black;
+    display: flex;
+    align-items: flex-start;
+
+    margin-top: 10px;
+}
+
+.flex-item5{
+    color: black;
+    background-color: red;
+    border: 1px solid green;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.div-5 .flex-item5:nth-child(3){
+    align-self: flex-end;
+}
+.div-5 .flex-item5:nth-child(4){
+    align-self: center;
+}
+
+.div-6{
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    border: 2px dotted black;
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin-top: 10px;
+}
+
+.flex-item6{
+    color: black;
+    background-color: red;
+    border: 1px solid white;
+    text-align: center;
+    justify-content: flex-end;
+}
